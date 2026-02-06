@@ -2,10 +2,10 @@ from itertools import permutations
 from math import factorial
 from collections import defaultdict
 
-# perm = [''.join(x) for x in list(permutations("barbarian"))]
+perm = [''.join(x) for x in list(permutations("abc"))] #set comprehension
 #perm = {''.join(x) for x in list(permutations("electrocardiagraphic"))} #set {} notation to eliminate the repetition
-#print(perm)
-#print(len(perm))
+print(perm)
+print(len(perm))
 
 
 def how_many_permutations(text: str) -> int:
